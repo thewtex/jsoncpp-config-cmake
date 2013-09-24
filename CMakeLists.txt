@@ -81,5 +81,8 @@ endif(JSONCPP_WITH_WARNING_AS_ERROR)
 # Build the different applications
 add_subdirectory( src )
 
-#install the includes
+# Install the includes
 add_subdirectory( include )
+
+# Install the CMake configuration
+add_subdirectory( cmake )

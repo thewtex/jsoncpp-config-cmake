@@ -37,7 +37,6 @@ set_target_properties( jsoncpp_lib PROPERTIES VERSION ${JSON_CPP_VERSION} SOVERS
 
 # Install instructions for this target
 install( TARGETS jsoncpp_lib
-         RUNTIME DESTINATION bin
-         LIBRARY DESTINATION lib
-         ARCHIVE DESTINATION lib
+         LIBRARY DESTINATION lib COMPONENT Development
+         ARCHIVE DESTINATION lib COMPONENT RuntimeLibraries
 )

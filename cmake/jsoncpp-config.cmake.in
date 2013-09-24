@@ -1,0 +1,11 @@
+# Find the jsoncpp includes and library
+#
+# jsoncpp_INCLUDE_DIRS - where to find json/json.h
+# jsoncpp_LIBRARIES - list of libraries to link against.
+# jsoncpp_FOUND - set to 1 if found.
+
+set( jsoncpp_FOUND 1 )
+
+set( jsoncpp_INCLUDE_DIRS "@jsoncpp_INCLUDE@" )
+
+set( jsoncpp_LIBRARIES "@jsoncpp_LIBRARY@" )
